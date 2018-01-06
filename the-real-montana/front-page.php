@@ -12,13 +12,19 @@
  * @since Twenty Twelve 1.0
  */
 
-add_filter( 'the_title', function ($title) { return "";});
+$imgDir = get_stylesheet_directory_uri() . '/images/';
 
 get_header(); ?>
-	<div class="main-header-image" style="background-image: url('<?php if ( has_post_thumbnail() ) {
-			the_post_thumbnail_url();
-		} ?>');">
-		<div class="row">
+
+
+	<div class="main-header-image">
+    <div class="carousel" id="carousel-selector">
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."header_photo.png" ?>');"></div>
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."bark_carousel.png" ?>');"></div>
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."wood_carousel.png" ?>');"></div>
+
+    </div>
+		<div class="row first">
 			<div class="columns small-12 medium-6 site-info">
         <div class="name">
   				<h1 class="border">
@@ -41,7 +47,7 @@ get_header(); ?>
 				</h2>
 			</div>
 			<div class="columns small-12 medium-5 push-1 search">
-				<h1>hello</h1>
+				<?php get_sidebar( 'front' ); ?>
 			</div>
 		</div>
 </div>
@@ -83,16 +89,17 @@ get_header(); ?>
           </div>
 			  </div>
 			</section>
-      <section class="section2">
+      <section class="section2" id="section-2">
         <div class="row">
           <div class="columns small-12 medium-8">
             <div class="featured">
               <h2>
                 Newly listed Properties
               </h2>
-              <img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/temp_home_photo.png" alt="">
+              <?php dynamic_sidebar( 'featured-home' ); ?>
+              <!-- <img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/temp_home_photo.png" alt=""> -->
             </div>
-            <div class="property-details">
+            <!-- <div class="property-details">
               <div class="address">
                 <h3 class="address-number">218 Forest Glen Dr.</h3>
                 <h5 class="address-zip">Whitefish, MT 59937</h5>
@@ -113,7 +120,7 @@ get_header(); ?>
 
             </div>
 
-          </div>
+          </div> -->
         </div>
           <div class="small-12 medium-4 visit">
             <img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/calendar.png" alt="">
@@ -128,7 +135,7 @@ get_header(); ?>
           </div>
         </div>
       </section>
-      <section class="section3">
+      <section class="section3" id="section-3">
         <div class="row">
           <div class="columns small-12 large-8">
             <h1>About Me</h1>
@@ -167,9 +174,10 @@ get_header(); ?>
           </ul>
         </div>
       </section>
-      <div class="section4">
+      <div class="section4" id="section-4">
         <div class="row">
-          <div class="columns small-12 large-6">
+          <div class="columns small-12 large-5">
+            <?php add_filter( 'the_title', function ($title) { return "";}); ?>
             <?php while ( have_posts() ) : the_post(); ?>
               <?php get_template_part( 'content', 'page' ); ?>
             <?php endwhile; // end of the loop. ?>
@@ -237,5 +245,5 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 
-<?php get_sidebar( 'front' ); ?>
 <?php get_footer(); ?>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri();?>/carousel.js "></script>

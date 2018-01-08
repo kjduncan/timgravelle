@@ -1376,6 +1376,7 @@ blockquote p {
   font-weight: 700;
   letter-spacing: 5px;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
 .property-details ul {
   margin-left: 0;
@@ -1736,7 +1737,67 @@ header.secondary .contact-info h4 {
 header.secondary .secondary-navigation a {
   color: #ffffff !important;
 }
-
+tbody {
+  position: relative;
+  margin-bottom: 120px;
+}
+.dsidx-widget-affordability table, .dsidx-widget-areastats table, .dsidx-widget-mapsearch table, .dsidx-widget-openhouse table, .dsidx-widget-recentstatus table, .dsidx-widget-slideshow table {
+  width: 100%;
+  height: 120px;
+  background-size: contain;
+}
+.gallery_listing_data_row {
+  background-color: none !important;
+  background: none !important;
+}
+.gallery_listing_data_row table, td.gallery_address_cell, td.gallery_slideshow_price {
+  position: absolute;
+}
+.gallery_listing_data_row table {
+  bottom: -172px;
+}
+.gallery_main_table td.gallery_slideshow_label, .gallery_main_table td.gallery_slideshow_value  {
+  vertical-align: top !important;
+  padding: 0 !important;
+  display: inline-block;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 3px;
+  line-height: 16px;
+  font-weight: 700;
+}
+.dsidx-widget-slideshow .gallery_listing_data_row td.gallery_slideshow_value {
+  width: unset;
+}
+.gallery_main_table td.gallery_address_cell {
+  background: none;
+  color: #000000;
+  bottom: -88px;
+}
+.gallery_listing_data_row_alt {
+  background: none;
+}
+.gallery_big_left_arrow, .gallery_big_right_arrow {
+  display: none;
+}
+.dsidx-widget-slideshow .gallery_address_span {
+  font-size: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.gallery_main_table td.gallery_address_cell {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.gallery_main_table td.gallery_slideshow_price {
+  font-size: 24px;
+  color: #798231;
+  vertical-align: bottom;
+  padding: 0 !important;
+  bottom: -96px;
+  letter-spacing: 3px;
+}
 
 @media only screen and (min-width: 40.063em) {
   .section3 .results, .actions {

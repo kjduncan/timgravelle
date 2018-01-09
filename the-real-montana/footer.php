@@ -8,6 +8,7 @@
  * @subpackage Twenty_Twelve
  * @since Twenty Twelve 1.0
  */
+ $imgDir = get_stylesheet_directory_uri() . '/images/';
 ?>
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
@@ -23,16 +24,16 @@
 				<div class="columns small-12 large-6">
 					<ul class="footer-logos">
 						<li>
-							<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2017/12/equal_housing.png" alt="">
+							<img src="<?php echo $imgDir."equal_housing.png" ?>" alt="">
 						</li>
 						<li>
-							<img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/realtor_mls.png" alt="">
+							<img src="<?php echo $imgDir."realtor_mls.png" ?>" alt="">
 						</li>
 						<li>
-							<img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/realtor_logo.png" alt="">
+							<img src="<?php echo $imgDir."realtor_logo.png" ?>" alt="">
 						</li>
 						<li>
-							<img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/equator_certified.png" alt="">
+							<img src="<?php echo $imgDir."equator_certified.png" ?>" alt="">
 						</li>
 					</ul>
 

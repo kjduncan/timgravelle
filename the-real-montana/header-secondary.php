@@ -36,25 +36,27 @@
 	<header id="masthead" class="secondary" role="banner">
     <div class="row">
       <div class="columns small-12 large-5">
-        <div class="name">
-          <h1 class="border">
-            Tim
-          </h1>
-          <h1>
-            Gravelle
-          </h1>
-        </div>
-        <h2>
-          Glacier Real Estate
-        </h2>
-        <div class="contact-info">
-          <h3>406-250-9803</h3>
-          <h4>TIM.GRAVELLE@THE REAL MONANTA.COM</h4>
-        </div>
-        <h2 class="bold">
-          THE REAL MONTANA
+        <a href="http://timgravelle.com">
+          <div class="name">
+            <h1 class="border">
+              Tim
+            </h1>
+            <h1>
+              Gravelle
+            </h1>
+          </div>
+          <h2>
+            Glacier Real Estate
+          </h2>
+          <div class="contact-info">
+            <h3>406-250-9803</h3>
+            <h4>TIM.GRAVELLE@THE REAL MONANTA.COM</h4>
+          </div>
+          <h2 class="bold">
+            THE REAL MONTANA
 
-        </h2>
+          </h2>
+        </a>
       </div>
       <div class="columns small-12 large-7" style="dislay:flex; height:100%;">
     		<nav id="site-navigation" class="secondary-navigation" role="navigation">

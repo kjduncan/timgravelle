@@ -39,7 +39,7 @@ get_header(); ?>
 				</h2>
 				<div class="contact-info">
 					<h3>406-250-9803</h3>
-					<h4>TIM.GRAVELLE@THE REAL MONANTA.COM</h4>
+					<h4>TIM.GRAVELLE@THEREALMONTANA.COM</h4>
 				</div>
 				<h2 class="bold">
 					THE REAL MONTANA
@@ -68,22 +68,22 @@ get_header(); ?>
           <div class="columns small-12 medium-7">
             <ul class="actions">
               <li>
-                <div class="item">
+                <a href='https://timgravelle.com/idx/listings/agent-listings/' class="item">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.172 24l-7.387-7.387c-1.388.874-3.024 1.387-4.785 1.387-4.971 0-9-4.029-9-9s4.029-9 9-9 9 4.029 9 9c0 1.761-.514 3.398-1.387 4.785l7.387 7.387-2.828 2.828zm-12.172-8c3.859 0 7-3.14 7-7s-3.141-7-7-7-7 3.14-7 7 3.141 7 7 7z"/></svg>
                   <h3>SEARCH Listings</h3>
-                </div>
+                </a>
               </li>
               <li>
-                <div class="item">
+                <a href='http://www.fcvb.org/index.php' class="item">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 5.999l-5.621 2.986c-.899-.104-1.806.191-2.474.859-.662.663-.95 1.561-.862 2.428l-3.043 5.728 5.724-3.042c.884.089 1.772-.205 2.432-.865.634-.634.969-1.524.859-2.473l2.985-5.621zm-5.97 7.22c-.689 0-1.25-.559-1.25-1.249-.001-.691.559-1.251 1.25-1.25.69 0 1.25.56 1.25 1.25-.001.689-.56 1.249-1.25 1.249z"/></svg>
                   <h3>AREA Information</h3>
-                </div>
+                </a>
               </li>
               <li>
-                <div class="item">
+                <a href='/#section-4' class="item">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.176 1.322l2.844-1.322 4.041 7.89-2.724 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.862 3.591-19.103-18.258-11.385-22.281zm1.929 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398z"/></svg>
                   <h3>CONTACT</h3>
-                </div>
+                </a>
               </li>
             </ul>
           </div>
@@ -99,28 +99,6 @@ get_header(); ?>
               <?php dynamic_sidebar( 'featured-home' ); ?>
               <!-- <img src="http://localhost:8888/wordpress/wp-content/uploads/2017/12/temp_home_photo.png" alt=""> -->
             </div>
-            <!-- <div class="property-details">
-              <div class="address">
-                <h3 class="address-number">218 Forest Glen Dr.</h3>
-                <h5 class="address-zip">Whitefish, MT 59937</h5>
-
-              </ul>
-              <ul class="size">
-                <li class="price"><strong>$430,000 </strong> $228/sqft</p>
-                <li class="rooms">3 BDR</p>
-                <li class="bath">3 BATH</p>
-                <li class="sqft">2300 sqft</p>
-                <li>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 7.093v-5.093h-3v2.093l3 3zm4 5.907l-12-12-12 12h3v10h18v-10h3zm-5 8h-14v-10.26l7-6.912 7 6.99v10.182zm-5-1h-4v-6h4v6z"/></svg>
-                </li>
-
-              </ul>
-              <p>This home is built on a 3 acre lot and has all the extras in it. The master bedroom features heated floors, large jacuzzi tub, and a walk in shower. The kitchen...</p>
-
-
-            </div>
-
-          </div> -->
         </div>
           <div class="small-12 medium-4 visit">
             <img src="<?php echo $imgDir."calendar.png" ?>" alt="">
@@ -181,33 +159,6 @@ get_header(); ?>
             <?php while ( have_posts() ) : the_post(); ?>
               <?php get_template_part( 'content', 'page' ); ?>
             <?php endwhile; // end of the loop. ?>
-            <!-- <h1>Contact Me</h1>
-            <div class="input-wrapper">
-              <label for="name">Name</label>
-              <input id="name" type="text">
-            </div>
-            <div class="input-wrapper">
-              <label for="phone">Phone Number</label>
-              <input id="phone" type="text">
-            </div>
-            <div class="input-wrapper">
-              <label for="email">Email</label>
-              <input id="email" type="text">
-            </div>
-            <div class="input-wrapper">
-              <label for="comments">Comments</label>
-              <textarea id="comments" name="name" rows="8" cols="80"></textarea>
-            </div>
-            <div class="preferred-contact">
-              <h5>Preferred method of contact</h5>
-              <div class="radio-wrapper">
-                <input type="radio">
-                <label for="">Phone</label>
-                <input type="radio">
-                <label for="">Email</label>
-              </div>
-
-            </div> -->
           </div>
           <div class="columns small-12 large-4 name-logo">
             <img src="<?php echo $imgDir."glacier_logo.png" ?>" alt="">
@@ -217,26 +168,15 @@ get_header(); ?>
               <h5><strong>Brokers License</strong></h5>
               <h5>RRE-BRO-LIC-19032</h5>
             </div>
-            <!-- <div class="address">
-              <h5><strong>Glacier Real Estate</strong></h5>
-              <p>428 East Idaho</p>
-              <p>Kalispell, MT 59901</p>
-            </div> -->
-            <!-- <div class="contact-details">
-              <p>Tim.Gravelle@TheRealMontana.com</p>
-              <p>Cell: (406) 250-9803</p>
-              <p>Phone: (406) 752-1555</p>
-              <p>Fax: (406) 752-2661</p>
-            </div> -->
             <ul class="social">
               <li>
                 <a href="https://www.facebook.com/gravelletim/">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg>
                 </a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/feed/?trk=">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg>
                 </a>
               </li>
             </ul>

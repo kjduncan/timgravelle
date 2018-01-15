@@ -2,10 +2,6 @@
   var carousel = document.getElementById('carousel-selector');
   var children = carousel.children;
 
-  for(var i=0; i<children.length; i++) {
-    console.log(children[i]);
-  }
-
   function addFadeout(el) {
     if (el.classList)
       el.classList.add('fadeout');

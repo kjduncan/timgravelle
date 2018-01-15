@@ -1227,11 +1227,10 @@ blockquote p {
   position: relative;
 }
 .main-header-image {
-  margin-top: 54px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 40px 0;
+  padding: 112px 0;
   position: relative;
 }
 .carousel {
@@ -1280,6 +1279,7 @@ blockquote p {
 }
 
 .main-navigation {
+  margin-top:0;
   position: fixed;
   top: 0;
   left: 0;
@@ -1386,6 +1386,7 @@ blockquote p {
 .actions li .item h3 {
   font-size: 24px;
   font-weight: 600;
+  color: #000000;
 }
 .actions li .item svg {
   height: 64px;
@@ -1488,6 +1489,9 @@ button:hover {
   border-radius: 8px;
   color: #ffffff;
 }
+.template-front-page .widget-area .widget, .template-front-page.two-sidebars .widget-area .front-widgets {
+  width: 100% !important;
+}
 .section3 {
   background-color: #798231;
   width: 100%;
@@ -1579,9 +1583,9 @@ button:hover {
   flex-direction: row;
   margin-left: 0;
 }
-.section4 .name-logo .social img {
-  height: 40px;
-  width: 40px;
+.section4 .name-logo .social svg {
+  fill: #4f4f4f;
+
 
 }
 .section4 .name-logo .social li {
@@ -1629,6 +1633,7 @@ footer .site-info p {
   text-align: left;
   margin-bottom: 0;
   letter-spacing: 1.25px;
+  font-size: 12px;
 }
 footer .site-info p strong {
   text-transform: uppercase;
@@ -1763,7 +1768,7 @@ header.secondary .contact-info h4 {
   width: 100%;
   margin: 0;
 }
-.secondary-navigation .menu-menu-container {
+.secondary-navigation .menu-menu-container, .secondary-navigation .menu-menu-1-container {
   display: flex;
   width: 100%;
 }
@@ -1771,6 +1776,9 @@ header.secondary .contact-info h4 {
   display: flex;
   align-items: flex-end;
   height: 100%;
+}
+.template-front-page .widget-area {
+  border: unset;
 }
 header.secondary .secondary-navigation a {
   color: #ffffff !important;
@@ -1799,6 +1807,14 @@ tbody {
 }
 .gallery_listing_data_row table, td.gallery_address_cell, td.gallery_slideshow_price {
   position: absolute;
+}
+td.gallery_address_cell .gallery_address_span {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 550px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
 }
 .gallery_listing_data_row table {
   bottom: -210px;
@@ -1888,4 +1904,3 @@ td.gallery_image_arrow_cell {
   .site-info, .search {
     margin-top: 0;
   }
-}

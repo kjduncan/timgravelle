@@ -20,8 +20,10 @@ get_header(); ?>
 	<div class="main-header-image">
     <div class="carousel" id="carousel-selector">
       <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."header_photo.png" ?>');"></div>
-      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."bark_carousel.png" ?>');"></div>
-      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."wood_carousel.png" ?>');"></div>
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."home1.jpg" ?>');"></div>
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."home2.jpg" ?>');"></div>
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."home3.jpeg" ?>');"></div>
+      <div class="carousel-header-image" style="background-image: url('<?php echo $imgDir."home4.jpeg" ?>');"></div>
 
     </div>
 		<div class="row first">
@@ -39,7 +41,7 @@ get_header(); ?>
 				</h2>
 				<div class="contact-info">
 					<h3>406-250-9803</h3>
-					<h4>TIM.GRAVELLE@THEREALMONTANA.COM</h4>
+          <a href="mailto:TIM.GRAVELLE@THEREALMONTANA.COM">TIM.GRAVELLE@THEREALMONTANA.COM</a>
 				</div>
 				<h2 class="bold">
 					THE REAL MONTANA
@@ -74,7 +76,7 @@ get_header(); ?>
                 </a>
               </li>
               <li>
-                <a href='http://www.fcvb.org/index.php' class="item">
+                <a href='http://www.fcvb.org/index.php' target="_blank" class="item">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 5.999l-5.621 2.986c-.899-.104-1.806.191-2.474.859-.662.663-.95 1.561-.862 2.428l-3.043 5.728 5.724-3.042c.884.089 1.772-.205 2.432-.865.634-.634.969-1.524.859-2.473l2.985-5.621zm-5.97 7.22c-.689 0-1.25-.559-1.25-1.249-.001-.691.559-1.251 1.25-1.25.69 0 1.25.56 1.25 1.25-.001.689-.56 1.249-1.25 1.249z"/></svg>
                   <h3>AREA Information</h3>
                 </a>

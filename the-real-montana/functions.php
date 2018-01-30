@@ -1,4 +1,5 @@
 <?php
+
 function my_theme_enqueue_styles() {
 
     $parent_style = 'twentytwelve-style'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.

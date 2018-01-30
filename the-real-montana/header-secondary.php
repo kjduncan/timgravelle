@@ -36,7 +36,6 @@
 	<header id="masthead" class="secondary" role="banner">
     <div class="row">
       <div class="columns small-12 large-5">
-        <a href="http://timgravelle.com">
           <div class="name">
             <h1 class="border">
               Tim
@@ -50,13 +49,12 @@
           </h2>
           <div class="contact-info">
             <h3>406-250-9803</h3>
-            <h4>TIM.GRAVELLE@THE REAL MONANTA.COM</h4>
+            <a href="mailto:TIM.GRAVELLE@THEREALMONTANA.COM">TIM.GRAVELLE@THEREALMONTANA.COM</a>
           </div>
           <h2 class="bold">
             THE REAL MONTANA
 
           </h2>
-        </a>
       </div>
       <div class="columns small-12 large-7" style="dislay:flex; height:100%;">
     		<nav id="site-navigation" class="secondary-navigation" role="navigation">

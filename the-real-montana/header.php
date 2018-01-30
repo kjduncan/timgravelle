@@ -21,6 +21,9 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width" />
+<meta name="keywords" content="real estate, broker, agent, montana, kila, columbia falls, bigfork, lakeside, polson, libby, kalispell, whitefish, realtor, home, house, glacier">
+<meta name="description" content="Real Estate broker offering services related to buying and selling homes">
+<meta name="author" content="Tim Gravelle">
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
